@@ -33,7 +33,17 @@
 .menu{
     width: 400px;
     float: left;
-    height: 70px;
+    height: 60px;
+    display: flex;
+}
+
+.menu input{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu button{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
@@ -70,12 +80,12 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 390px;
+    margin-left: 30px;
 }
 
 .srch{
     font-family: 'Times New Roman';
-    width: 200px;
+    width: 150px;
     height: 40px;
     background: transparent;
     border: 1px solid black;
@@ -118,18 +128,21 @@ ul li a:hover{
 
 .cuerpo{
     background-color: rgb(181, 181, 181);
-    height: 100%;
+    height: auto;
     display: flex;
 }
 
 .cuerpo p{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 35px
 }
 .cuerpo h3{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 35px
 }
+
 
 footer{
     background-color: rgb(142, 142, 142);
@@ -186,7 +199,7 @@ textarea {
 #submit {
     background-color: #a9a8a8;
     width:85px;
-    height:35px;
+    height:39px;
     border:1px solid black;
     margin-top:20px;
     cursor:pointer;
@@ -194,7 +207,8 @@ textarea {
 }
 
 .form{
-    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
     width: 500px;
 }
 
@@ -204,15 +218,31 @@ textarea {
 }
 
 .cur h2{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 75px
 }
 .cur #submit {
     background-color: #c9c8c8;
-    width:225px;
-    height:35px;
+    width:226px;
+    height:39px;
     border:1px solid black;
     margin-top:1px;
     cursor:pointer;
     border-radius: 10px;
+}
+
+.form input{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cur input{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form textarea{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
